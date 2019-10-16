@@ -44,7 +44,7 @@ pipeline {
       input {
         message "Should we continue?"
         submitter "beedemo-ops"
-        submitterParameter "APPROVER
+        submitterParameter "APPROVER"
       }
       steps {
         echo "Continuing with deployment - approved by ${APPROVER}"
